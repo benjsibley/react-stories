@@ -8,3 +8,8 @@ node_modules
 # Local Netlify folder
 .netlify
 .DS_Store
+.vs/slnx.sqlite
+.vs/stories/FileContentIndex/80a26f00-5f67-4a5b-8fe5-954837a3595a.vsidx
+.vs/stories/FileContentIndex/bd33aaf0-06b6-4651-a1f4-16afa258c665.vsidx
+.vs/stories/FileContentIndex/bfbcc7af-45ec-4f30-b641-1c4d65d03c64.vsidx
+.vs/stories/FileContentIndex/d621b348-db29-46c2-ab5f-266702dc9b29.vsidx

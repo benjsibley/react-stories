@@ -6,6 +6,10 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+export async function loader() {
+  return { message: "That Conference Rocks 🪨🪨🪨" };
+}
+
 export default function App() {
   return (
     <html lang="en">

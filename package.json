@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "format": "prettier --write .",
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
@@ -11,14 +12,19 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.22.9",
     "@netlify/functions": "^2.6.0",
     "@netlify/remix-adapter": "^2.3.1",
     "@remix-run/node": "^2.10.3",
     "@remix-run/react": "^2.10.3",
     "@remix-run/serve": "^2.10.3",
-    "isbot": "^4.1.0"
+    "contentful": "^10.12.15",
+    "isbot": "^4.1.0",
+    "remix-flat-routes": "^0.6.5",
+    "tiny-invariant": "^1.3.3"
   },
   "devDependencies": {
+    "@contentful/rich-text-types": "^16.8.3",
     "@remix-run/dev": "^2.10.3",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
@@ -30,6 +36,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.3.3",
     "typescript": "^5.1.6",
     "vite": "^5.0.0",
     "vite-tsconfig-paths": "^4.2.1"
